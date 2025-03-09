@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josephus Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Josephus Problem Calculator</h1>
+        <div class="input-group">
+            <label for="totalPeople">Total Number of People (n):</label>
+            <input type="number" id="totalPeople" min="1" placeholder="Enter n">
+        </div>
+        <button onclick="calculateJosephus()">Calculate</button>
+        <div class="result">
+            <h2>Result:</h2>
+            <p id="output"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
